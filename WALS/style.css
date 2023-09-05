@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header {
+  height: 70px;
+  background-color: #EC715F;
+}
+
+.page-header {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  line-height: 70px;
+  padding: 0 30px;
+}
+
+header a {
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+#mv {
+  background-image: url(img/mv.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  text-align: center;
+}
+
+.mv-title {
+  color: #FAFAFA;
+  font-size: 64px;
+  padding-top: 200px;
+  padding-bottom: 10px;
+}
+
+.mv-text {
+  color: #FAFAFA;
+  font-size: 20px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#portfolio {
+  background-color: #ECEFF1;
+}
+
+.heading {
+  display: inline-block;
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+}
+
+.heading:after {
+  content: '';
+	display: block;
+	width: 70px; /* 下線の幅 */
+	height: 3px; /* 下線の太さ */
+	background-color: #EC715F; /* 下線の色 */
+	margin: 8px auto 0 auto;
+}
+
+.heading-text {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.image-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+}
+
+.box1 {
+  background-image: url(img/sketch.jpg);
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.box2 {
+  background-image: url(img/websuku.png);
+  margin-bottom: 10px;
+}
+.box3 {
+  background-image: url(img/write.jpg);
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.box4 {
+  background-image: url(img/webcamp.png);
+  margin-bottom: 90px;
+  margin-right: 10px;
+}
+
+.box5 {
+  background-image: url(img/talk.jpg);
+  margin-bottom: 90px;
+}
+.box6 {
+  background-image: url(img/webcamp-mother.png);
+  margin-bottom: 90px;
+  margin-left: 10px;
+}
+
+.strength-group {
+  display: flex;
+  width: 980px;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.strength {
+  margin-right: 10px;
+  width: 320px;
+  height: auto;
+  display: block;
+}
+
+.i {
+  font-size: 60px;
+}
+
+.strength-title {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000000;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+#profile {
+  background-color: #ECEFF1;
+}
+
+img {
+    border-radius: 150px;
+    width: 250px;
+    height: 250px;
+}
+
+.profile-group {
+  display: flex;
+  width: 1024px;
+  padding-bottom: 90px;
+}
+
+.left {
+  width: 512px;
+}
+
+.right {
+  width: 512px;
+}
+
+.name-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+.name-text {
+  font-size: 16px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.contact-group {
+  display: flex;
+  margin: auto;
+  width: 800px;
+  padding-bottom: 90px;
+}
+
+.contact-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.left-group {
+  width: 400px;
+  margin:auto;
+}
+
+.left-group-left {
+  width: 150px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.mail {
+  padding-bottom: 20px;
+}
+
+.right-group {
+  width: 400px;
+ 
+}
+
+.contact-title-icon {
+  text-align: left;
+  padding-left: 80px;
+  padding-bottom: 5px;
+}
+.icon {
+  padding-right: 20px;
+}
+
+footer {
+  height: 60px;
+  background-color: #EC715F;
+}
+
+.footer {
+  color: #FAFAFA;
+  font-size: 16px;
+  text-align: center;
+  line-height: 60px;
+}
